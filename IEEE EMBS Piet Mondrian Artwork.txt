@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+<head>
+  <meta>
+  <title>Piet Mondrian's Artwork</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .mondrian-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 3fr;
+      grid-template-rows: 1fr 3fr 1fr;
+      /gap: 5px;/
+      width: 300px;
+      height: 300px;
+      border: 3px solid black;
+    }
+
+    .grid-item {
+      background-color: white;
+      border: 3px solid black;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .pink {
+      background-color: pink;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .height {
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mondrian-container">
+    <div class="grid-item red"></div>
+    <div class="grid-item pink"></div>
+    <div class="grid-item red"></div>
+    <div class="grid-item pink"></div>
+    <div class="grid-item yellow"></div>
+    <div class="grid-item blue">
+    </div>
+    <div class="grid-item yellow"></div>
+    <div class="grid-item yellow"></div>
+    <div class="grid-item red"></div>
+  </div>
+</body>
+
+</html>
